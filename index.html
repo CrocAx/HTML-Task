@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Exercise Template</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div id="content">
-        <h1>Welcome to the Exercise!</h1>
-        <p id="description">This is a simple exercise to practice HTML, CSS, and JavaScript.</p>
-        <button id="actionButton">Click Me!</button>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <div id="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
+
+    <div id="content">
+      <h1>Welcome to the Exercise!</h1>
+      X
+      <p id="description">
+        This is a simple exercise to practice HTML, CSS, and JavaScript.
+      </p>
+      <button id="actionButton">Toggle Content</button>
+      <p id="toggleParagraph">This paragraph can be toggled.</p>
+      <div id="content"></div>
+    </div>
+
+    <footer>
+      <a>Sarunas Paulius</a>
+      <a id="clock"></a>
+    </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
